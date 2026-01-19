@@ -1,3 +1,5 @@
+import sampleProjectImage from "../assets/images/thumbnail-Sample.jpg";
+
 export function Projects() {
   const projectList = [
     { title: "Network Setup", desc: "IT Infrastructure", tech: "Cisco & Windows Server" },
@@ -19,9 +21,9 @@ export function Projects() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
           {projectList.map((project, index) => (
-            <div key={index} className="group bg-portfolio-bg rounded-3xl p-6 transition-all hover:shadow-xl hover:-translate-y-2">
+            <div key={index} className="group cursor-pointer bg-portfolio-bg rounded-3xl p-6 transition-all hover:shadow-xl hover:-translate-y-2">
               <div className="h-56 bg-slate-200 rounded-2xl mb-6 overflow-hidden">
-                {/* Place project thumbnail here */}
+                <img src={sampleProjectImage} alt="" className="rounded-2xl w-full h-full object-cover"/>
               </div>
               <h3 className="text-2xl font-bold text-slate-900">{project.title}</h3>
               <p className="text-blue-600 font-semibold mb-2">{project.tech}</p>
