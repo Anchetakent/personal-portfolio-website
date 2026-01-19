@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-portfolio-bg: #F3F3F3; 
+}
+
+body {
+  font-family: var(--font-montserrat);
+  background-color: var(--color-portfolio-bg);
+}
+
