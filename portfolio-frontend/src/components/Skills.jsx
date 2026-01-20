@@ -2,7 +2,7 @@ export function Skills() {
   const tools = ["React", "JavaScript", "Tailwind", "Cisco", "After Effects", "Premiere Pro"];
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center p-10 font-montserrat">
+    <section id="skills" className="min-h-screen flex flex-col justify-center items-center p-10 font-montserrat">
       <h2 className="text-4xl font-bold mb-20">Tools & Mastery</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-12">
         {tools.map((tool) => (

@@ -2,7 +2,7 @@
 
 @theme {
   --font-montserrat: "Montserrat", sans-serif;
-  --color-portfolio-bg: #F3F3F3; 
+  --color-portfolio-bg: #F3F3F3;
 }
 
 body {
@@ -10,3 +10,11 @@ body {
   background-color: var(--color-portfolio-bg);
 }
 
+html {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+html::-webkit-scrollbar {
+  display: none;             
+}

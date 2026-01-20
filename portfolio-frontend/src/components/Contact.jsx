@@ -4,7 +4,7 @@ import GmailIcon from "../assets/images/logos/Gmail-Logo.png";
 
 export function Contact() {
   return (
-    <section className="min-h-screen bg-white flex items-center justify-center p-10 font-montserrat">
+    <section id="contact" className="min-h-screen bg-white flex items-center justify-center p-10 font-montserrat">
       <div className="w-full max-w-xl bg-portfolio-bg p-12 rounded-4xl shadow-sm">
         <h2 className="text-4xl font-bold mb-8 text-center">Let's Connect</h2>
         <form className="space-y-6">
