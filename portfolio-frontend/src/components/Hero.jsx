@@ -4,7 +4,7 @@ import myPhoto from "../assets/images/sample-picture.jpg";
 export function Hero() {
   return (
     <>
-      <section id="hero" className="min-h-screen flex flex-col md:flex-row items-center justify-center p-10 p font-montserrat">
+      <section id="hero" className="min-h-screen pt-24 flex flex-col md:flex-row items-center justify-center p-10 p font-montserrat">
         <div className="md:w-1/2 space-y-6 pl-12">
           <h1 className="text-7xl font-bold text-slate-900 leading-tight">
             Hi, I'm <span className= "underline">Kent</span>
