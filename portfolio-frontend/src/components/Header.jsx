@@ -25,7 +25,7 @@ export function Header() {
 
         <nav className={`
           ${isOpen ? "block" : "hidden"} 
-          absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent md:block -m-3
+          absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent md:block -mt-3 pl-3
         `}>
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 p-6 md:p-0">
             <li><a href="#hero" onClick={() => setIsOpen(false)} className="text-stone-200 hover:text-stone-300 hover:underline font-medium block">Home</a></li>
