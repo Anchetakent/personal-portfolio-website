@@ -11,7 +11,7 @@ export function Contact() {
     const onSubmit = async (event) => {
       event.preventDefault();
       const formData = new FormData(event.target);
-      formData.append("access_key", "eec3c838-7b7f-4a3e-8237-875d667eeec1");
+      formData.append("access_key", import.meta.env.VITE_WEB3FORMS_KEY);
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
