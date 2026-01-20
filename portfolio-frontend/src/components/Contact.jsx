@@ -1,4 +1,4 @@
-import GithubLogo from "../assets/images/logos/Github-Logo.png";
+import GithubLogo from "../assets/images/logos/GitHub-Logo.png";
 import LinkedInLogo from "../assets/images/logos/Linkedin-Logo.png";
 import GmailIcon from "../assets/images/logos/Gmail-Logo.png";
 import { useState } from "react";
