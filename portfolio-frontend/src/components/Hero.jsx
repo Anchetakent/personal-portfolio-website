@@ -12,7 +12,7 @@ export function Hero() {
           <p className="text-xl text-slate-600 max-w-lg">
             A Computer Engineering Student Specializing in Software Engineering!
           </p>
-          <button className="bg-slate-400 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded-b-2xl" >My Resume!</button>
+          <button className="bg-slate-500 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded-b-2xl" >My Resume!</button>
         </div>
         <div className="md:w-1/2 flex justify-center mt-12 md:mt-0">
           <div className="w-72 h-72 md:w-96 md:h-96 bg-white shadow-2xl rounded-3xl overflow-hidden p-4">

@@ -4,13 +4,14 @@ import { Hero } from "./components/Hero"
 import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
 import { projectList } from "./data/ProjectList"
+import { tools } from "./data/SkillsList"
 
 function App() {
   return (
     <>
       <Hero />
       <Projects projectList={projectList}/>
-      <Skills />
+      <Skills tools={tools}/>
       <Contact />
       <Header />
     </>
