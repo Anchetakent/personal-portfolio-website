@@ -42,21 +42,21 @@ export function Contact() {
         <div className="flex flex-col space-y-4 sm:space-y-6 w-full sm:w-auto">
 
           <a href="https://github.com/Anchetakent"target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 cursor-pointer hover:scale-105 transition-transform p-3 sm:p-4 rounded-lg hover:bg-slate-50">
-            <div className="w-6 sm:w-8 flex justify-center flex-shrink-0">
+            <div className="w-6 sm:w-8 flex justify-center shrink-0">
               <img src={GithubLogo} alt="Github" className="w-16 sm:w-20 h-6 sm:h-7 object-contain" />
             </div>
             <span className="text-gray-800 font-medium hover:underline text-sm sm:text-base">@AnchetKent</span>
           </a>
 
           <div className="flex items-center space-x-4 cursor-pointer hover:scale-105 transition-transform p-3 sm:p-4 rounded-lg hover:bg-slate-50">
-            <div className="w-6 sm:w-8 flex justify-center flex-shrink-0">
+            <div className="w-6 sm:w-8 flex justify-center shrink-0">
               <img src={GmailIcon} alt="Gmail" className="w-6 sm:w-7 h-5 sm:h-5 object-contain" />
             </div>
             <span className="text-gray-800 font-medium hover:underline text-sm sm:text-base break-all">kentlouisea@gmail.com</span>
           </div>
 
           <a  href="https://www.linkedin.com/in/kentlouiseancheta/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 cursor-pointer hover:scale-105 transition-transform p-3 sm:p-4 rounded-lg hover:bg-slate-50">
-            <div className="w-6 sm:w-8 flex justify-center flex-shrink-0">
+            <div className="w-6 sm:w-8 flex justify-center shrink-0">
               <img src={LinkedInLogo} alt="LinkedIn" className="w-6 sm:w-7 h-6 sm:h-7 object-contain" />
             </div>
             <span className="text-gray-800 font-medium hover:underline text-sm sm:text-base">My LinkedIn</span>

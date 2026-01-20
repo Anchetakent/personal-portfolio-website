@@ -4,16 +4,16 @@ export function ProjectModal({ project, onClose }) {
   return (
     <>
       <div
-        className="fixed inset-0 bg-black/40 z-[60] transition-opacity animate-in fade-in duration-300"
+        className="fixed inset-0 bg-black/40 z-50 transition-opacity animate-in fade-in duration-300"
         onClick={onClose}
       />
-      <div className="fixed inset-x-0 bottom-0 z-[70] flex justify-center px-4">
+      <div className="fixed inset-x-0 bottom-0 z-[60] flex justify-center px-4">
         
         <div className="bg-white w-full max-w-5xl min-h-[40vh] max-h-[90vh] overflow-y-auto rounded-t-2xl shadow-2xl p-8 transform transition-transform animate-in slide-in-from-bottom duration-500 ease-out">
           
           <div className="flex justify-between items-start mb-4">
             <div className="max-w-[80%]">
-              <h2 className="text-3xl font-bold text-slate-900 mt-1 break-words">
+              <h2 className="text-3xl font-bold text-slate-900 mt-1 break-word">
                 {project.title}
               </h2>
               <span className="text-sm font-bold text-slate-900 uppercase tracking-widest block mt-1">
@@ -40,7 +40,7 @@ export function ProjectModal({ project, onClose }) {
           <div className="mt-8 border-t border-slate-100">
             <h4 className="font-bold text-slate-900 mb-3">Project Overview</h4>
             
-            <div className="text-slate-600 leading-relaxed whitespace-pre-line break-words">
+            <div className="text-slate-600 leading-relaxed whitespace-pre-line break-word">
               {project.detailedDesc}
             </div>
           </div>
