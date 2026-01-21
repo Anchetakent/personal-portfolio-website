@@ -1,19 +1,13 @@
-# 🚀 Personal Portfolio Website
+# Personal Portfolio Website
 
 Welcome to the repository for my personal portfolio website!  
 This project serves as a digital hub to showcase my web development journey, technical skills, and the creative projects I’ve built.
 
-🌐 **Live Website:** You can also visit **https://kents.codes** to see the portfolio deployed and fully interactive.
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/Anchetakent/personal-portfolio-website?style=for-the-badge&color=yellow" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/Anchetakent/personal-portfolio-website?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/license/Anchetakent/personal-portfolio-website?style=for-the-badge&color=green" alt="License">
-</p>
+ **Live Website:** You can also visit **https://kents.codes** to see the portfolio deployed and fully interactive.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 This project is built using a modern frontend stack focused on performance, responsiveness, and minimalist UI design.
 
@@ -24,7 +18,7 @@ This project is built using a modern frontend stack focused on performance, resp
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Responsive Design** – Optimized for mobile, tablet, and desktop
 - **Project Gallery** – Showcases selected projects with descriptions and links
@@ -33,7 +27,7 @@ This project is built using a modern frontend stack focused on performance, resp
 - **Contact Section** – Easy way to get in touch for collaboration or opportunities
 
 ---
-🚀 Getting Started
+ Getting Started
 
 To run the project locally, follow these steps:
 
