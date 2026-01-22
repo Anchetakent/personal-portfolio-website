@@ -1,6 +1,6 @@
 export function Skills({ tools }) {
   const legend = [
-    { label: "Basics/Learning", color: "bg-blue-400" },
+    { label: "Basics", color: "bg-blue-400" },
     { label: "Intermediate", color: "bg-yellow-400" },
     { label: "Advanced", color: "bg-orange-400" },
     { label: "Expert", color: "bg-red-400" },
@@ -23,7 +23,7 @@ export function Skills({ tools }) {
         {tools.map((tool) => (
           <div key={tool.id} className="flex flex-col items-center group">
             <div className={`w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 ${tool.color} bg-opacity-25 shadow-md rounded-full flex items-center justify-center mb-2 sm:mb-4 group-hover:scale-110 transition-transform`}>
-              <span className="text-center text-xs font-bold text-slate-800 px-2">{tool.name}</span>
+              <span className="text-center text-xs font-bold text-slate-800 px-2"><img src={tool.image}/></span>
             </div>
             <p className="font-semibold text-slate-700 text-xs sm:text-sm text-center">{tool.name}</p>
           </div>

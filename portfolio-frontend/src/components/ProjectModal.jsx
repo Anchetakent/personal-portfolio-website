@@ -38,7 +38,7 @@ export function ProjectModal({ project, onClose }) {
           </div>
 
           <div className="mt-8 border-t border-slate-100">
-            <h4 className="font-bold text-slate-900 mb-3">Project Overview</h4>
+            <h4 className="font-bold text-slate-900">Project Overview</h4>
             
             <div className="text-slate-600 leading-relaxed whitespace-pre-line break-word">
               {project.detailedDesc}
